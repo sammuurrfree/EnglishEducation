@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 1" translatesAutoresizingMaskIntoConstraints="NO" id="I05-i0-BC2">
-                                <rect key="frame" x="0.0" y="-3" width="414" height="558"/>
+                                <rect key="frame" x="0.0" y="-5" width="414" height="558"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="558" id="KdX-2C-Heb"/>
                                 </constraints>
@@ -61,7 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="cfg-I3-2Ey"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="I05-i0-BC2" firstAttribute="top" secondItem="It0-Bg-42r" secondAttribute="top" constant="-3" id="54Y-RF-HaH"/>
+                            <constraint firstItem="I05-i0-BC2" firstAttribute="top" secondItem="It0-Bg-42r" secondAttribute="top" constant="-5" id="54Y-RF-HaH"/>
                             <constraint firstItem="I05-i0-BC2" firstAttribute="leading" secondItem="cfg-I3-2Ey" secondAttribute="leading" id="Dx9-A5-7hv"/>
                             <constraint firstItem="hmO-ZW-Qil" firstAttribute="centerX" secondItem="I05-i0-BC2" secondAttribute="centerX" id="NmM-Vq-Wft"/>
                             <constraint firstItem="cfg-I3-2Ey" firstAttribute="bottom" secondItem="ZEY-O1-0DV" secondAttribute="bottom" constant="56" id="UtT-Gh-j9S"/>
@@ -87,17 +87,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 1" translatesAutoresizingMaskIntoConstraints="NO" id="4oD-K3-j1r">
-                                <rect key="frame" x="0.0" y="-3" width="414" height="294"/>
+                                <rect key="frame" x="0.0" y="-5" width="414" height="296"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-грамматика-100 (1) 1-1" translatesAutoresizingMaskIntoConstraints="NO" id="BoN-pD-gyL">
-                                <rect key="frame" x="157" y="43" width="100" height="100"/>
+                                <rect key="frame" x="157" y="41" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="FOY-wk-oCC"/>
                                     <constraint firstAttribute="height" constant="100" id="GZy-Rs-cp8"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Изучай английский легко" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNe-3b-74V">
-                                <rect key="frame" x="69.5" y="158" width="275.5" height="26.5"/>
+                                <rect key="frame" x="69.5" y="156" width="275.5" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -194,7 +194,7 @@
                             <constraint firstItem="4oD-K3-j1r" firstAttribute="trailing" secondItem="nwB-rY-VGc" secondAttribute="trailing" id="VXp-au-SSZ"/>
                             <constraint firstItem="HXn-vK-mRt" firstAttribute="centerX" secondItem="nwB-rY-VGc" secondAttribute="centerX" id="Wl9-w4-KIB"/>
                             <constraint firstItem="HXn-vK-mRt" firstAttribute="leading" secondItem="nwB-rY-VGc" secondAttribute="leading" constant="30" id="mQz-OL-LsW"/>
-                            <constraint firstItem="4oD-K3-j1r" firstAttribute="top" secondItem="HBx-Sx-OZZ" secondAttribute="top" constant="-3" id="nQP-zU-0hp"/>
+                            <constraint firstItem="4oD-K3-j1r" firstAttribute="top" secondItem="HBx-Sx-OZZ" secondAttribute="top" constant="-5" id="nQP-zU-0hp"/>
                             <constraint firstItem="sxV-QS-GZv" firstAttribute="leading" secondItem="nwB-rY-VGc" secondAttribute="leading" constant="27" id="o9V-vo-ahg"/>
                             <constraint firstItem="HNe-3b-74V" firstAttribute="centerX" secondItem="4oD-K3-j1r" secondAttribute="centerX" id="oRN-x9-dAq"/>
                             <constraint firstItem="4oD-K3-j1r" firstAttribute="top" secondItem="BoN-pD-gyL" secondAttribute="bottom" constant="-146" id="ozN-eN-Ou1"/>
@@ -1083,17 +1083,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 1" translatesAutoresizingMaskIntoConstraints="NO" id="3NS-wR-Bqg">
-                                <rect key="frame" x="0.0" y="-3" width="414" height="267"/>
+                                <rect key="frame" x="0.0" y="-5" width="414" height="269"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-грамматика-100 (1) 1-1" translatesAutoresizingMaskIntoConstraints="NO" id="UX6-rh-s00">
-                                <rect key="frame" x="157" y="43" width="100" height="100"/>
+                                <rect key="frame" x="157" y="41" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Td7-SC-d40"/>
                                     <constraint firstAttribute="width" constant="100" id="gnM-Jc-STz"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Изучай английский легко" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5Q-hV-QG2">
-                                <rect key="frame" x="69.5" y="158" width="275.5" height="26.5"/>
+                                <rect key="frame" x="69.5" y="156" width="275.5" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1200,7 +1200,7 @@
                             <constraint firstItem="6MP-35-HlQ" firstAttribute="centerX" secondItem="R5n-Ci-Y0W" secondAttribute="centerX" id="CL8-g8-AXo"/>
                             <constraint firstItem="R5n-Ci-Y0W" firstAttribute="trailing" secondItem="6MP-35-HlQ" secondAttribute="trailing" constant="30" id="CZs-oz-XIy"/>
                             <constraint firstItem="6MP-35-HlQ" firstAttribute="leading" secondItem="R5n-Ci-Y0W" secondAttribute="leading" constant="30" id="JtP-Wq-Uzo"/>
-                            <constraint firstItem="3NS-wR-Bqg" firstAttribute="top" secondItem="RUB-HH-bVl" secondAttribute="top" constant="-3" id="LRP-ZO-m1S"/>
+                            <constraint firstItem="3NS-wR-Bqg" firstAttribute="top" secondItem="RUB-HH-bVl" secondAttribute="top" constant="-5" id="LRP-ZO-m1S"/>
                             <constraint firstItem="R5n-Ci-Y0W" firstAttribute="bottom" secondItem="MiN-lW-POe" secondAttribute="bottom" constant="58" id="NcL-os-5dO"/>
                             <constraint firstItem="XnN-J8-pzD" firstAttribute="leading" secondItem="R5n-Ci-Y0W" secondAttribute="leading" constant="27" id="P8M-cr-AmM"/>
                             <constraint firstItem="MiN-lW-POe" firstAttribute="leading" secondItem="R5n-Ci-Y0W" secondAttribute="leading" constant="26" id="TJD-VM-E5z"/>
@@ -1872,7 +1872,7 @@
         <segue reference="h6T-8t-rag"/>
         <segue reference="n4t-6z-vBJ"/>
         <segue reference="vI2-Lz-wiM"/>
-        <segue reference="Jiv-kb-T3N"/>
+        <segue reference="dbf-jf-7bO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Frame 1 1" width="36" height="36"/>
