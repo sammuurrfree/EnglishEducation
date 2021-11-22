@@ -80,16 +80,16 @@ class SelectTrueWordViewController: UIViewController {
         
         switch tag{
             case 1:
-                btn1.backgroundColor = #colorLiteral(red: 0.3764705882, green: 0.5764705882, blue: 0.3411764706, alpha: 1)
+                btn1.backgroundColor = #colorLiteral(red: 0.5040256977, green: 0.771404326, blue: 0.4615821242, alpha: 1)
                 variant = 1
             case 2:
-                btn2.backgroundColor = #colorLiteral(red: 0.3764705882, green: 0.5764705882, blue: 0.3411764706, alpha: 1)
+                btn2.backgroundColor = #colorLiteral(red: 0.5040256977, green: 0.771404326, blue: 0.4615821242, alpha: 1)
                 variant = 2
             case 3:
-                btn3.backgroundColor = #colorLiteral(red: 0.3764705882, green: 0.5764705882, blue: 0.3411764706, alpha: 1)
+                btn3.backgroundColor = #colorLiteral(red: 0.5040256977, green: 0.771404326, blue: 0.4615821242, alpha: 1)
                 variant = 3
             case 4:
-                btn4.backgroundColor = #colorLiteral(red: 0.3764705882, green: 0.5764705882, blue: 0.3411764706, alpha: 1)
+                btn4.backgroundColor = #colorLiteral(red: 0.5040256977, green: 0.771404326, blue: 0.4615821242, alpha: 1)
                 variant = 4
             default:
                 break
@@ -127,8 +127,18 @@ class SelectTrueWordViewController: UIViewController {
             
             
             if educationWords.count < 1{
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "education") as! EducationViewController
-                return self.present(vc, animated: true)
+                var count = UserDefaults().integer(forKey: "userWordCount")
+                if count == 0 { count = 10 }
+                
+                let alert = UIAlertController(title: "Замечательно", message: "Вы выучили \(count) новых слов", preferredStyle: .alert)
+                
+                alert.addAction(UIAlertAction(title: "Ок", style: .default, handler: { action in
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "education") as! EducationViewController
+                    self.present(vc, animated: true)
+                }))
+                
+                
+                return present(alert, animated: true)
             }
             
             

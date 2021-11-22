@@ -15,7 +15,9 @@ class SettingViewController: UIViewController {
         super.viewDidLoad()
         
         var count = UserDefaults().integer(forKey: "userWordCount")
+        if count == 0 { count = 10 }
         if count < 3 {count = 3}
+        
         textField.text = String(count)
     }
 
